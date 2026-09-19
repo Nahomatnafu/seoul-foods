@@ -24,7 +24,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
     <main className="product-page section">
       <nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/shop">Shop</Link><span>/</span><span>{product.category}</span><span>/</span><strong>{product.name}</strong></nav>
       <section className="product-detail">
-        <div className={`detail-visual accent-${product.accent}`}><Image className="detail-photo" src={productImage(product.category)} alt={`Sample photo from the ${product.category.toLowerCase()} aisle`} fill sizes="(max-width: 980px) 100vw, 54vw" priority /><span className="detail-origin">{product.origin}</span><span className="detail-word">{product.category}</span></div>
+        <div className={`detail-visual accent-${product.accent}`}><Image className="detail-photo" src={productImage(product.slug)} alt={`Photo representing ${product.name}`} fill sizes="(max-width: 980px) 100vw, 54vw" priority /><span className="detail-origin">{product.origin}</span><span className="detail-word">{product.category}</span></div>
         <div className="detail-copy">
           {product.tag && <p className="eyebrow">{product.tag}</p>}
           <h1>{product.name}</h1>
