@@ -35,11 +35,25 @@ export const categories = ["All", "Snacks", "Sweets", "Drinks", "Noodles", "Froz
 
 export const featuredProducts = products.slice(0, 8);
 
-export const productImage = (category: string) => {
-  if (category === "Drinks") return "/category-drinks.avif";
-  if (category === "Frozen") return "/category-frozen.avif";
-  if (category === "Noodles" || category === "Quick Meals") return "/category-noodles.avif";
-  return "/category-snacks.avif";
+const productImages: Record<string, string> = {
+  "buldak-carbonara-ramen": "/product-buldak.avif",
+  "shin-black-noodle-soup": "/product-shin.avif",
+  "peach-ramune": "/product-ramune.avif",
+  "strawberry-milk": "/product-strawberry-milk.avif",
+  "honey-butter-chips": "/product-honey-chips.avif",
+  "seaweed-snack": "/product-seaweed.avif",
+  "matcha-pocky": "/product-matcha.avif",
+  "choco-pie": "/product-choco-pie.avif",
+  "mango-mochi": "/product-mochi.avif",
+  "kimchi-dumplings": "/product-dumplings.avif",
+  "melon-ice-bar": "/product-melon-bar.avif",
+  "mango-ice-cream": "/product-mango-ice-cream.avif",
+  gochujang: "/product-gochujang.avif",
+  "chili-crisp": "/product-chili-crisp.avif",
+  "tteokbokki-cup": "/product-tteokbokki.avif",
+  "jasmine-milk-tea": "/product-milk-tea.avif",
 };
+
+export const productImage = (slug: string) => productImages[slug] ?? "/category-snacks.avif";
 
 export const formatPrice = (price: number) => `$${price.toFixed(2)}`;
