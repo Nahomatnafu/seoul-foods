@@ -4,10 +4,10 @@ import { ProductCard } from "@/components/product-card";
 import { featuredProducts } from "@/lib/products";
 
 const categoryTiles = [
-  { label: "Noodles", text: "Slurp-worthy staples", emoji: "🍜", className: "tile-red", category: "Noodles" },
-  { label: "Cold drinks", text: "Fizzy, fruity, creamy", emoji: "🥤", className: "tile-blue", category: "Drinks" },
-  { label: "Snack aisle", text: "Crunchy, chewy, spicy", emoji: "🍘", className: "tile-yellow", category: "Snacks" },
-  { label: "Freezer finds", text: "Dumplings to ice bars", emoji: "🧊", className: "tile-pink", category: "Frozen" },
+  { label: "Noodles", text: "Slurp-worthy staples", image: "/category-noodles.avif", alt: "A colorful bowl of ramen", className: "tile-red", category: "Noodles" },
+  { label: "Cold drinks", text: "Fizzy, fruity, creamy", image: "/category-drinks.avif", alt: "Cold drinks stocked in a market refrigerator", className: "tile-blue", category: "Drinks" },
+  { label: "Snack aisle", text: "Crunchy, chewy, spicy", image: "/category-snacks.avif", alt: "A market display filled with packaged Asian snacks", className: "tile-yellow", category: "Snacks" },
+  { label: "Freezer finds", text: "Dumplings to ice bars", image: "/category-frozen.avif", alt: "Freshly prepared dumplings", className: "tile-pink", category: "Frozen" },
 ];
 
 export default function Home() {
@@ -29,7 +29,7 @@ export default function Home() {
       <section className="section category-section">
         <div className="section-heading split-heading"><div><p className="eyebrow">START WITH A CRAVING</p><h2>What are you<br />in the mood for?</h2></div><p>Familiar favorites, hard-to-find ingredients, and something new every time you stop in.</p></div>
         <div className="category-grid">
-          {categoryTiles.map((tile) => <Link href={`/shop?category=${tile.category}`} className={`category-tile ${tile.className}`} key={tile.label}><span className="category-emoji">{tile.emoji}</span><span><small>{tile.text}</small><strong>{tile.label}</strong></span><b>↗</b></Link>)}
+          {categoryTiles.map((tile) => <Link href={`/shop?category=${tile.category}`} className={`category-tile ${tile.className}`} key={tile.label}><Image className="category-photo" src={tile.image} alt={tile.alt} fill sizes="(max-width: 720px) 50vw, (max-width: 980px) 50vw, 25vw" /><span className="category-content"><small>{tile.text}</small><strong>{tile.label}</strong></span><b aria-hidden="true">↗</b></Link>)}
         </div>
       </section>
 
