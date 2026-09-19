@@ -1,9 +1,10 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { useCart } from "@/components/cart-provider";
-import { formatPrice } from "@/lib/products";
+import { formatPrice, productImage } from "@/lib/products";
 
 const times = ["11:00 AM", "12:30 PM", "2:00 PM", "3:30 PM", "5:00 PM", "6:30 PM", "8:00 PM"];
 
@@ -18,11 +19,11 @@ export default function PickupPage() {
   return (
     <main className="pickup-page section">
       <div className="page-title"><p className="eyebrow">PICKUP BAG</p><h1>One quick stop.<br />All the good stuff.</h1><p>Choose your items and a convenient time. You&apos;ll pay in store when you arrive.</p></div>
-      {items.length === 0 ? <div className="empty-bag"><span>🛍️</span><h2>Your pickup bag is empty.</h2><p>Take a lap through the shelves and add whatever catches your eye.</p><Link className="button button-red" href="/shop">Browse products →</Link></div> :
+      {items.length === 0 ? <div className="empty-bag"><span className="empty-bag-label">READY WHEN YOU ARE</span><h2>Your pickup bag is empty.</h2><p>Take a lap through the shelves and add whatever catches your eye.</p><Link className="button button-red" href="/shop">Browse products →</Link></div> :
       <div className="pickup-layout">
         <section className="bag-list" aria-label="Pickup bag items">
           <div className="bag-heading"><h2>Your picks</h2><span>{items.reduce((sum, item) => sum + item.quantity, 0)} items</span></div>
-          {items.map((item) => <article className="bag-item" key={item.slug}><div className={`bag-thumb accent-${item.accent}`}>{item.emoji}</div><div className="bag-name"><Link href={`/product/${item.slug}`}>{item.name}</Link><span>{item.origin} • {item.size}</span><button onClick={() => removeItem(item.slug)}>Remove</button></div><div className="quantity-control"><button onClick={() => updateQuantity(item.slug, item.quantity - 1)} aria-label={`Decrease ${item.name} quantity`}>−</button><span>{item.quantity}</span><button onClick={() => updateQuantity(item.slug, item.quantity + 1)} aria-label={`Increase ${item.name} quantity`}>+</button></div><strong>{formatPrice(item.price * item.quantity)}</strong></article>)}
+          {items.map((item) => <article className="bag-item" key={item.slug}><div className={`bag-thumb accent-${item.accent}`}><Image className="bag-photo" src={productImage(item.category)} alt="" fill sizes="76px" /></div><div className="bag-name"><Link href={`/product/${item.slug}`}>{item.name}</Link><span>{item.origin} • {item.size}</span><button onClick={() => removeItem(item.slug)}>Remove</button></div><div className="quantity-control"><button onClick={() => updateQuantity(item.slug, item.quantity - 1)} aria-label={`Decrease ${item.name} quantity`}>−</button><span>{item.quantity}</span><button onClick={() => updateQuantity(item.slug, item.quantity + 1)} aria-label={`Increase ${item.name} quantity`}>+</button></div><strong>{formatPrice(item.price * item.quantity)}</strong></article>)}
         </section>
         <form className="pickup-form" onSubmit={(event) => { event.preventDefault(); setSubmitted(true); }}>
           <div className="form-heading"><span>02</span><div><p className="eyebrow">WHEN SHOULD WE EXPECT YOU?</p><h2>Pick a time.</h2></div></div>
