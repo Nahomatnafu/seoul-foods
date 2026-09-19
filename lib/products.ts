@@ -35,4 +35,11 @@ export const categories = ["All", "Snacks", "Sweets", "Drinks", "Noodles", "Froz
 
 export const featuredProducts = products.slice(0, 8);
 
+export const productImage = (category: string) => {
+  if (category === "Drinks") return "/category-drinks.avif";
+  if (category === "Frozen") return "/category-frozen.avif";
+  if (category === "Noodles" || category === "Quick Meals") return "/category-noodles.avif";
+  return "/category-snacks.avif";
+};
+
 export const formatPrice = (price: number) => `$${price.toFixed(2)}`;
