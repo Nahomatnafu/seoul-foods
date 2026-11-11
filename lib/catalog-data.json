@@ -6,7 +6,7 @@
     "priceCents": 200,
     "category": "Noodles",
     "barcode": "031146250103",
-    "image": null
+    "image": "/inventory/k4hy7mk5tcxqw.webp"
   },
   {
     "id": "9T9VGZNV8DRBG",
@@ -15,7 +15,7 @@
     "priceCents": 799,
     "category": "Noodles",
     "barcode": "031146023073",
-    "image": null
+    "image": "/inventory/9t9vgznv8drbg.webp"
   },
   {
     "id": "TKH6X2NKB991G",
@@ -69,7 +69,7 @@
     "priceCents": 174,
     "category": "Noodles",
     "barcode": "031146033492",
-    "image": null
+    "image": "/inventory/z9k83gwqp0dpj.webp"
   },
   {
     "id": "ZJ6SC6TD8XC1C",
@@ -78,7 +78,7 @@
     "priceCents": 899,
     "category": "Noodles",
     "barcode": "031146022847",
-    "image": null
+    "image": "/inventory/zj6sc6td8xc1c.webp"
   },
   {
     "id": "9K86W4KBY5ARP",
@@ -132,7 +132,7 @@
     "priceCents": 749,
     "category": "Noodles",
     "barcode": "8801045892207",
-    "image": null
+    "image": "/inventory/4bakccv7fq4g6.webp"
   },
   {
     "id": "C4PXA34VTNTQ0",
@@ -159,7 +159,8 @@
     "priceCents": 899,
     "category": "Noodles",
     "barcode": "192699000369",
-    "image": null
+    "image": "/inventory/mykwhs3w9w34e.webp",
+    "imageCaption": "One packet shown · sold as a 5-pack"
   },
   {
     "id": "KXYKZWR89H21P",
@@ -177,7 +178,7 @@
     "priceCents": 899,
     "category": "Noodles",
     "barcode": "031146064670",
-    "image": null
+    "image": "/inventory/9ngm5j0tjs97g.webp"
   },
   {
     "id": "H7QTXGPS6JBXJ",
@@ -204,7 +205,7 @@
     "priceCents": 599,
     "category": "Snacks",
     "barcode": "8801117760205",
-    "image": null
+    "image": "/inventory/bkxq8te4z2ynr.webp"
   },
   {
     "id": "Y90JMBNN06X0W",
@@ -249,7 +250,7 @@
     "priceCents": 249,
     "category": "Snacks",
     "barcode": "8801019612930",
-    "image": null
+    "image": "/inventory/j1t9escwbq018.webp"
   },
   {
     "id": "10XRS3SZFT7WM",
@@ -303,7 +304,7 @@
     "priceCents": 299,
     "category": "Snacks",
     "barcode": "8801019612213",
-    "image": null
+    "image": "/inventory/mbj5wgb47pyk2.webp"
   },
   {
     "id": "65N6QN42M1YX0",
@@ -321,7 +322,7 @@
     "priceCents": 599,
     "category": "Snacks",
     "barcode": "8801117667306",
-    "image": null
+    "image": "/inventory/mfpfpd0nzqkjw.webp"
   },
   {
     "id": "5QFX1Q4KKKAD6",
@@ -375,7 +376,7 @@
     "priceCents": 185,
     "category": "Sweets",
     "barcode": "8851019010014",
-    "image": null
+    "image": "/inventory/z4zn24wjr4gce.webp"
   },
   {
     "id": "RFE7BMQAH64Y0",
@@ -384,7 +385,7 @@
     "priceCents": 750,
     "category": "Sweets",
     "barcode": "4710126452015",
-    "image": null
+    "image": "/inventory/rfe7bmqah64y0.webp"
   },
   {
     "id": "BWA77XG2185J4",
@@ -393,7 +394,7 @@
     "priceCents": 299,
     "category": "Sweets",
     "barcode": "4710126038981",
-    "image": null
+    "image": "/inventory/bwa77xg2185j4.webp"
   },
   {
     "id": "TBEBQX3QX9QMC",
@@ -402,7 +403,7 @@
     "priceCents": 199,
     "category": "Sweets",
     "barcode": "072320750057",
-    "image": null
+    "image": "/inventory/tbebqx3qx9qmc.webp"
   },
   {
     "id": "A5RT6YPNX44E4",
@@ -420,7 +421,7 @@
     "priceCents": 399,
     "category": "Sweets",
     "barcode": "4903333251216",
-    "image": null
+    "image": "/inventory/gxyks9wvagz00.webp"
   },
   {
     "id": "AFXXKH3PEEDBM",
@@ -483,7 +484,7 @@
     "priceCents": 550,
     "category": "Sweets",
     "barcode": "8801019316715",
-    "image": null
+    "image": "/inventory/0z1xa238rh0ge.webp"
   },
   {
     "id": "MJJ0JCJ6QBXEP",
@@ -546,7 +547,8 @@
     "priceCents": 860,
     "category": "Drinks",
     "barcode": "8850389101667",
-    "image": null
+    "image": "/inventory/gm8jzqn4da014.webp",
+    "imageCaption": "One bottle shown · sold as a 6-pack"
   },
   {
     "id": "TVMF7WQJSVS06",
@@ -555,7 +557,8 @@
     "priceCents": 860,
     "category": "Drinks",
     "barcode": "8850389101704",
-    "image": null
+    "image": "/inventory/tvmf7wqjsvs06.webp",
+    "imageCaption": "One bottle shown · sold as a 6-pack"
   },
   {
     "id": "N2PMZXQ7NWPB0",
@@ -564,7 +567,8 @@
     "priceCents": 860,
     "category": "Drinks",
     "barcode": "8850389106464",
-    "image": null
+    "image": "/inventory/n2pmzxq7nwpb0.webp",
+    "imageCaption": "One bottle shown · sold as a 6-pack"
   },
   {
     "id": "HP9YVRCGQJAN4",
@@ -573,7 +577,8 @@
     "priceCents": 849,
     "category": "Drinks",
     "barcode": "8850389111369",
-    "image": null
+    "image": "/inventory/hp9yvrcgqjan4.webp",
+    "imageCaption": "One bottle shown · sold as a 6-pack"
   },
   {
     "id": "KDATYTTX8HS9J",
@@ -582,7 +587,8 @@
     "priceCents": 849,
     "category": "Drinks",
     "barcode": "18850389112882",
-    "image": null
+    "image": "/inventory/kdatyttx8hs9j.webp",
+    "imageCaption": "One bottle shown · sold as a 6-pack"
   },
   {
     "id": "6G75Q0MG44HYM",
@@ -609,7 +615,8 @@
     "priceCents": 749,
     "category": "Drinks",
     "barcode": "8850389101711",
-    "image": null
+    "image": "/inventory/dh20zxjzbdmdw.webp",
+    "imageCaption": "One bottle shown · sold as a 6-pack"
   },
   {
     "id": "CDFVMW961NSVE",
@@ -627,7 +634,7 @@
     "priceCents": 749,
     "category": "Drinks",
     "barcode": "8850389101674",
-    "image": null
+    "image": "/inventory/404yb5sm98de2.webp"
   },
   {
     "id": "DVEKC510N2GPR",
@@ -636,7 +643,8 @@
     "priceCents": 860,
     "category": "Drinks",
     "barcode": "8850389116494",
-    "image": null
+    "image": "/inventory/dvekc510n2gpr.webp",
+    "imageCaption": "One bottle shown · sold as a 6-pack"
   },
   {
     "id": "0QYZ8RFSDM0YP",
@@ -645,7 +653,8 @@
     "priceCents": 1000,
     "category": "Drinks",
     "barcode": "8850389105412",
-    "image": null
+    "image": "/inventory/0qyz8rfsdm0yp.webp",
+    "imageCaption": "One bottle shown · sold as a 6-pack"
   },
   {
     "id": "TWHBW7V45N5FW",
@@ -663,7 +672,8 @@
     "priceCents": 849,
     "category": "Drinks",
     "barcode": "8850389118887",
-    "image": null
+    "image": "/inventory/y7yx11gd6gv3y.webp",
+    "imageCaption": "One bottle shown · sold as a 6-pack"
   },
   {
     "id": "TJ1NKQ2W9MJNY",
@@ -726,7 +736,7 @@
     "priceCents": 1498,
     "category": "Frozen",
     "barcode": "8801007957869",
-    "image": null
+    "image": "/inventory/ttshqft0s23tm.webp"
   },
   {
     "id": "XDDW130DC0K16",
@@ -762,7 +772,7 @@
     "priceCents": 1200,
     "category": "Frozen",
     "barcode": "020914818232",
-    "image": null
+    "image": "/inventory/svap7mzjrse64.webp"
   },
   {
     "id": "HFC360X6KWJG8",
@@ -789,7 +799,7 @@
     "priceCents": 749,
     "category": "Frozen",
     "barcode": "020914818676",
-    "image": null
+    "image": "/inventory/2k01ky59ep6kg.webp"
   },
   {
     "id": "F22GXBGE52468",
@@ -798,7 +808,7 @@
     "priceCents": 450,
     "category": "Pantry",
     "barcode": "011152083353",
-    "image": null
+    "image": "/inventory/f22gxbge52468.webp"
   },
   {
     "id": "33HD2HQHJ457A",
@@ -879,7 +889,7 @@
     "priceCents": 2399,
     "category": "Refrigerated",
     "barcode": "890376002117",
-    "image": null
+    "image": "/inventory/nm70pmq6r9km2.webp"
   },
   {
     "id": "RPWH3WMRYMXPA",

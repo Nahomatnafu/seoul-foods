@@ -6,5 +6,6 @@ export type Product = {
   category: string;
   barcode: string;
   image: string | null;
+  imageCaption?: string;
 };
 export const formatPrice = (cents: number) => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(cents / 100);
