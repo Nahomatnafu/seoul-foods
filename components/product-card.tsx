@@ -1,22 +1,12 @@
-import Image from "next/image";
-import Link from "next/link";
-import type { Product } from "@/lib/products";
-import { formatPrice, productImage } from "@/lib/products";
-import { AddButton } from "./add-button";
+import Link from 'next/link';
+import type { Product } from '@/lib/product-types';
+import { formatPrice } from '@/lib/product-types';
+import { ProductVisual } from './product-visual';
+import { AddButton } from './add-button';
 
-export function ProductCard({ product, index = 0 }: { product: Product; index?: number }) {
-  return (
-    <article className="product-card">
-      <Link href={`/product/${product.slug}`} className={`product-visual accent-${product.accent}`} aria-label={`View ${product.name}`}>
-        <Image className="product-photo" src={productImage(product.slug)} alt={`Photo representing ${product.name}`} fill sizes="(max-width: 720px) 50vw, (max-width: 980px) 50vw, 25vw" />
-        {product.tag && <span className="product-tag">{product.tag}</span>}
-        <span className="product-photo-label">{product.category}</span>
-      </Link>
-      <div className="product-info">
-        <div className="product-meta"><span>{product.origin}</span><span>{product.category}</span></div>
-        <Link href={`/product/${product.slug}`}><h3>{product.name}</h3></Link>
-        <div className="product-row"><strong>{formatPrice(product.price)}</strong><AddButton product={product} /></div>
-      </div>
-    </article>
-  );
+export function ProductCard({ product }: { product: Product; index?: number }) {
+  return <article className="product-card">
+    <Link href={`/product/${product.slug}`} className="product-visual inventory-visual" aria-label={`View ${product.name}`}><ProductVisual product={product} /></Link>
+    <div className="product-info"><div className="product-meta"><span>{product.category}</span></div><Link href={`/product/${product.slug}`}><h3>{product.name}</h3></Link><div className="product-row"><strong>{formatPrice(product.priceCents)}</strong><AddButton product={product} /></div></div>
+  </article>;
 }

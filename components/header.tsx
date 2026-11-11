@@ -18,7 +18,7 @@ export function Header() {
 
   return (
     <>
-      <div className="announcement">North Mankato&apos;s neighborhood Asian market <span>•</span> Pay in store at pickup</div>
+      <div className="announcement">North Mankato&apos;s Asian convenience store <span>•</span> Groceries, snacks & everyday finds</div>
       <header className="site-header">
         <Link className="brand" href="/" aria-label="Seoul Foods home">
           <Image src="/seoul-foods-logo.png" alt="Seoul Foods" width={315} height={111} priority />
@@ -29,7 +29,7 @@ export function Header() {
         <nav className={open ? "nav open" : "nav"} aria-label="Main navigation">
           {links.map((link) => <Link key={link.href} href={link.href} onClick={() => setOpen(false)} className={pathname.startsWith(link.href) ? "active" : ""}>{link.label}</Link>)}
           <Link href="/pickup" onClick={() => setOpen(false)} className={pathname === "/pickup" ? "bag-link active" : "bag-link"}>
-            Pickup bag <span>{count}</span>
+            Demo bag <span>{count}</span>
           </Link>
         </nav>
       </header>

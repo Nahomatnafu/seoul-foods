@@ -1,0 +1,902 @@
+[
+  {
+    "id": "K4HY7MK5TCXQW",
+    "slug": "nongshim-hot-spicy-bowl--k4hy7mk5tcxqw",
+    "name": "Nongshim Hot & Spicy Bowl",
+    "priceCents": 200,
+    "category": "Noodles",
+    "barcode": "031146250103",
+    "image": null
+  },
+  {
+    "id": "9T9VGZNV8DRBG",
+    "slug": "nongshim-kim-chi-4-pack--9t9vgznv8drbg",
+    "name": "Nongshim Kim Chi 4 Pack",
+    "priceCents": 799,
+    "category": "Noodles",
+    "barcode": "031146023073",
+    "image": null
+  },
+  {
+    "id": "TKH6X2NKB991G",
+    "slug": "nongshim-spicy-creamy--tkh6x2nkb991g",
+    "name": "Nongshim Spicy & Creamy",
+    "priceCents": 1099,
+    "category": "Noodles",
+    "barcode": "031146022687",
+    "image": "/inventory/tkh6x2nkb991g.jpg"
+  },
+  {
+    "id": "2XETHC2ESAF2J",
+    "slug": "nongshim-shrimp--2xethc2esaf2j",
+    "name": "Nongshim Shrimp",
+    "priceCents": 200,
+    "category": "Noodles",
+    "barcode": "031146262748",
+    "image": "/inventory/2xethc2esaf2j.jpg"
+  },
+  {
+    "id": "6ZN25BMME48DT",
+    "slug": "nongshim-chapagetti--6zn25bmme48dt",
+    "name": "Nongshim Chapagetti",
+    "priceCents": 1200,
+    "category": "Noodles",
+    "barcode": "031146022939",
+    "image": "/inventory/6zn25bmme48dt.jpg"
+  },
+  {
+    "id": "MHQGB2X7M8GZT",
+    "slug": "nongshim-shin-raymyun-gold-chicken-broth--mhqgb2x7m8gzt",
+    "name": "Nongshim Shin Raymyun Gold Chicken Broth",
+    "priceCents": 1200,
+    "category": "Noodles",
+    "barcode": "031146063574",
+    "image": "/inventory/mhqgb2x7m8gzt.jpg"
+  },
+  {
+    "id": "8HGJV83WKCNQ2",
+    "slug": "nongshim-shin-green-mushroom-fried-tofu--8hgjv83wkcnq2",
+    "name": "Nongshim Shin Green Mushroom & Fried Tofu",
+    "priceCents": 1199,
+    "category": "Noodles",
+    "barcode": "031146063567",
+    "image": "/inventory/8hgjv83wkcnq2.jpg"
+  },
+  {
+    "id": "Z9K83GWQP0DPJ",
+    "slug": "nongshim-soon-kimchi-vegan-bowl--z9k83gwqp0dpj",
+    "name": "Nongshim Soon Kimchi Vegan Bowl",
+    "priceCents": 174,
+    "category": "Noodles",
+    "barcode": "031146033492",
+    "image": null
+  },
+  {
+    "id": "ZJ6SC6TD8XC1C",
+    "slug": "nongshim-soon-veggie-noodle-soup--zj6sc6td8xc1c",
+    "name": "Nongshim Soon Veggie Noodle Soup",
+    "priceCents": 899,
+    "category": "Noodles",
+    "barcode": "031146022847",
+    "image": null
+  },
+  {
+    "id": "9K86W4KBY5ARP",
+    "slug": "nongshim-soon-veggie-noodles--9k86w4kby5arp",
+    "name": "Nongshim Soon Veggie Noodles",
+    "priceCents": 349,
+    "category": "Noodles",
+    "barcode": "031146027033",
+    "image": "/inventory/9k86w4kby5arp.jpg"
+  },
+  {
+    "id": "QG756VHH36F56",
+    "slug": "samyang-buldak-tteokbokki--qg756vhh36f56",
+    "name": "Samyang Buldak Tteokbokki",
+    "priceCents": 599,
+    "category": "Noodles",
+    "barcode": "8801073910270",
+    "image": "/inventory/qg756vhh36f56.jpg"
+  },
+  {
+    "id": "Q5RZPKRSKVYTP",
+    "slug": "buldak-spicy-tteobboki-carbonara--q5rzpkrskvytp",
+    "name": "Buldak Spicy Tteobboki Carbonara",
+    "priceCents": 599,
+    "category": "Noodles",
+    "barcode": "8801073910287",
+    "image": "/inventory/q5rzpkrskvytp.jpg"
+  },
+  {
+    "id": "68Y6VHPJ6SJP6",
+    "slug": "nongshim-lobster--68y6vhpj6sjp6",
+    "name": "Nongshim Lobster",
+    "priceCents": 200,
+    "category": "Noodles",
+    "barcode": "031146263257",
+    "image": "/inventory/68y6vhpj6sjp6.jpg"
+  },
+  {
+    "id": "0DF64DDN5ZTX0",
+    "slug": "nongshim-spicy-chicken--0df64ddn5ztx0",
+    "name": "Nongshim Spicy Chicken",
+    "priceCents": 200,
+    "category": "Noodles",
+    "barcode": "031146262571",
+    "image": "/inventory/0df64ddn5ztx0.jpg"
+  },
+  {
+    "id": "4BAKCCV7FQ4G6",
+    "slug": "fried-kimchi-tuna-bowl-rice--4bakccv7fq4g6",
+    "name": "Fried Kimchi & Tuna Bowl Rice",
+    "priceCents": 749,
+    "category": "Noodles",
+    "barcode": "8801045892207",
+    "image": null
+  },
+  {
+    "id": "C4PXA34VTNTQ0",
+    "slug": "buldak-chicken-habanero-lime--c4pxa34vtntq0",
+    "name": "Buldak Chicken Habanero Lime",
+    "priceCents": 999,
+    "category": "Noodles",
+    "barcode": "8801073143777",
+    "image": "/inventory/c4pxa34vtntq0.jpg"
+  },
+  {
+    "id": "J5JAH7BMS5K2C",
+    "slug": "buldak-spicy-ramen-rose--j5jah7bms5k2c",
+    "name": "Buldak Spicy Ramen Rose",
+    "priceCents": 999,
+    "category": "Noodles",
+    "barcode": "192699000864",
+    "image": "/inventory/j5jah7bms5k2c.jpg"
+  },
+  {
+    "id": "MYKWHS3W9W34E",
+    "slug": "tom-yum-buldak-spicy-chicken--mykwhs3w9w34e",
+    "name": "Tom Yum Buldak Spicy Chicken",
+    "priceCents": 899,
+    "category": "Noodles",
+    "barcode": "192699000369",
+    "image": null
+  },
+  {
+    "id": "KXYKZWR89H21P",
+    "slug": "nongshim-ansung-noodles--kxykzwr89h21p",
+    "name": "Nongshim Ansung Noodles",
+    "priceCents": 649,
+    "category": "Noodles",
+    "barcode": "031146023172",
+    "image": "/inventory/kxykzwr89h21p.jpg"
+  },
+  {
+    "id": "9NGM5J0TJS97G",
+    "slug": "nongshim-white-jjamppong--9ngm5j0tjs97g",
+    "name": "Nongshim White Jjamppong",
+    "priceCents": 899,
+    "category": "Noodles",
+    "barcode": "031146064670",
+    "image": null
+  },
+  {
+    "id": "H7QTXGPS6JBXJ",
+    "slug": "nongshim-shrimp-chips-1-58oz--h7qtxgps6jbxj",
+    "name": "Nongshim Shrimp Chips 1.58oz",
+    "priceCents": 299,
+    "category": "Snacks",
+    "barcode": "031146216321",
+    "image": "/inventory/h7qtxgps6jbxj.jpg"
+  },
+  {
+    "id": "STRGRRHKE080G",
+    "slug": "nongshim-shrimp-crackers--strgrrhke080g",
+    "name": "Nongshim Shrimp Crackers",
+    "priceCents": 299,
+    "category": "Snacks",
+    "barcode": "031146215690",
+    "image": "/inventory/strgrrhke080g.jpg"
+  },
+  {
+    "id": "BKXQ8TE4Z2YNR",
+    "slug": "orion-orignial-potato-chips--bkxq8te4z2ynr",
+    "name": "Orion Orignial Potato Chips",
+    "priceCents": 599,
+    "category": "Snacks",
+    "barcode": "8801117760205",
+    "image": null
+  },
+  {
+    "id": "Y90JMBNN06X0W",
+    "slug": "corncho-ganache-choco--y90jmbnn06x0w",
+    "name": "Corncho Ganache Choco",
+    "priceCents": 249,
+    "category": "Snacks",
+    "barcode": "8801111611107",
+    "image": "/inventory/y90jmbnn06x0w.jpg"
+  },
+  {
+    "id": "KJS6MVTJYBACE",
+    "slug": "nongshim-onion-rings--kjs6mvtjybace",
+    "name": "Nongshim Onion Rings",
+    "priceCents": 339,
+    "category": "Snacks",
+    "barcode": "031146202119",
+    "image": "/inventory/kjs6mvtjybace.jpg"
+  },
+  {
+    "id": "B84XAN2SKM9XW",
+    "slug": "nongshim-gochujang-shrimp-crackers--b84xan2skm9xw",
+    "name": "Nongshim Gochujang Shrimp Crackers",
+    "priceCents": 299,
+    "category": "Snacks",
+    "barcode": "031146058549",
+    "image": "/inventory/b84xan2skm9xw.jpg"
+  },
+  {
+    "id": "KWJMXFCCD7BS8",
+    "slug": "nongshim-shrimp-crackers-14-11-oz--kwjmxfccd7bs8",
+    "name": "Nongshim Shrimp Crackers 14.11 Oz",
+    "priceCents": 999,
+    "category": "Snacks",
+    "barcode": "031146215539",
+    "image": "/inventory/kwjmxfccd7bs8.jpg"
+  },
+  {
+    "id": "J1T9ESCWBQ018",
+    "slug": "kimchi-potato-chips--j1t9escwbq018",
+    "name": "Kimchi Potato Chips",
+    "priceCents": 249,
+    "category": "Snacks",
+    "barcode": "8801019612930",
+    "image": null
+  },
+  {
+    "id": "10XRS3SZFT7WM",
+    "slug": "orion-turtlechips-seaweed--10xrs3szft7wm",
+    "name": "Orion Turtlechips Seaweed",
+    "priceCents": 599,
+    "category": "Snacks",
+    "barcode": "8801117990404",
+    "image": "/inventory/10xrs3szft7wm.jpg"
+  },
+  {
+    "id": "DK0XM4YJ98TP2",
+    "slug": "calbee-thai-style-yellow-curry--dk0xm4yj98tp2",
+    "name": "Calbee Thai Style Yellow Curry",
+    "priceCents": 650,
+    "category": "Snacks",
+    "barcode": "071146009547",
+    "image": "/inventory/dk0xm4yj98tp2.jpg"
+  },
+  {
+    "id": "C7DTRZE5RZX7P",
+    "slug": "calbee-umami-salt--c7dtrze5rzx7p",
+    "name": "Calbee Umami Salt",
+    "priceCents": 649,
+    "category": "Snacks",
+    "barcode": "071146009523",
+    "image": "/inventory/c7dtrze5rzx7p.jpg"
+  },
+  {
+    "id": "6ZKN70RKASTW8",
+    "slug": "calbee-spicy-bbq--6zkn70rkastw8",
+    "name": "Calbee Spicy BBQ",
+    "priceCents": 650,
+    "category": "Snacks",
+    "barcode": "071146009530",
+    "image": "/inventory/6zkn70rkastw8.jpg"
+  },
+  {
+    "id": "B497QTQYGKZEC",
+    "slug": "calbee-asain-chips-spicy-hot-pot--b497qtqygkzec",
+    "name": "Calbee Asain Chips Spicy Hot Pot",
+    "priceCents": 649,
+    "category": "Snacks",
+    "barcode": "071146009554",
+    "image": "/inventory/b497qtqygkzec.jpg"
+  },
+  {
+    "id": "MBJ5WGB47PYK2",
+    "slug": "honey-butter-maple-syrup-60g--mbj5wgb47pyk2",
+    "name": "Honey Butter Maple Syrup 60g",
+    "priceCents": 299,
+    "category": "Snacks",
+    "barcode": "8801019612213",
+    "image": null
+  },
+  {
+    "id": "65N6QN42M1YX0",
+    "slug": "honey-butter-quattro-55g--65n6qn42m1yx0",
+    "name": "Honey Butter Quattro 55g",
+    "priceCents": 299,
+    "category": "Snacks",
+    "barcode": "8801019612633",
+    "image": "/inventory/65n6qn42m1yx0.jpg"
+  },
+  {
+    "id": "MFPFPD0NZQKJW",
+    "slug": "orion-turtle-chip-mexican-street-corn--mfpfpd0nzqkjw",
+    "name": "Orion Turtle Chip Mexican Street Corn",
+    "priceCents": 599,
+    "category": "Snacks",
+    "barcode": "8801117667306",
+    "image": null
+  },
+  {
+    "id": "5QFX1Q4KKKAD6",
+    "slug": "ppang-bujang-chocolate-flavored-roll--5qfx1q4kkkad6",
+    "name": "Ppang Bujang Chocolate Flavored Roll",
+    "priceCents": 350,
+    "category": "Snacks",
+    "barcode": "031146021024",
+    "image": "/inventory/5qfx1q4kkkad6.jpg"
+  },
+  {
+    "id": "NRKZ52095DG28",
+    "slug": "crunchy-strawberry-pocky-sticks--nrkz52095dg28",
+    "name": "Crunchy Strawberry Pocky Sticks",
+    "priceCents": 285,
+    "category": "Snacks",
+    "barcode": "073141152426",
+    "image": "/inventory/nrkz52095dg28.jpg"
+  },
+  {
+    "id": "3W907SC84SMXP",
+    "slug": "glico-pocky-strawberry--3w907sc84smxp",
+    "name": "Glico Pocky Strawberry",
+    "priceCents": 469,
+    "category": "Sweets",
+    "barcode": "073141153430",
+    "image": "/inventory/3w907sc84smxp.jpg"
+  },
+  {
+    "id": "D1K8GRZVVEBZ4",
+    "slug": "glico-pocky-chocolate--d1k8grzvvebz4",
+    "name": "Glico Pocky Chocolate",
+    "priceCents": 469,
+    "category": "Sweets",
+    "barcode": "073141153423",
+    "image": "/inventory/d1k8grzvvebz4.jpg"
+  },
+  {
+    "id": "7YX88Q483856M",
+    "slug": "pocky-chocolate--7yx88q483856m",
+    "name": "Pocky Chocolate",
+    "priceCents": 185,
+    "category": "Sweets",
+    "barcode": "8851019010007",
+    "image": "/inventory/7yx88q483856m.jpg"
+  },
+  {
+    "id": "Z4ZN24WJR4GCE",
+    "slug": "pocky-strawberry--z4zn24wjr4gce",
+    "name": "Pocky Strawberry",
+    "priceCents": 185,
+    "category": "Sweets",
+    "barcode": "8851019010014",
+    "image": null
+  },
+  {
+    "id": "RFE7BMQAH64Y0",
+    "slug": "imei-choco-roll-mixed-berry--rfe7bmqah64y0",
+    "name": "Imei Choco Roll Mixed Berry",
+    "priceCents": 750,
+    "category": "Sweets",
+    "barcode": "4710126452015",
+    "image": null
+  },
+  {
+    "id": "BWA77XG2185J4",
+    "slug": "crunchoco--bwa77xg2185j4",
+    "name": "Crunchoco",
+    "priceCents": 299,
+    "category": "Sweets",
+    "barcode": "4710126038981",
+    "image": null
+  },
+  {
+    "id": "TBEBQX3QX9QMC",
+    "slug": "hello-panda-vanilla--tbebqx3qx9qmc",
+    "name": "Hello Panda Vanilla",
+    "priceCents": 199,
+    "category": "Sweets",
+    "barcode": "072320750057",
+    "image": null
+  },
+  {
+    "id": "A5RT6YPNX44E4",
+    "slug": "hello-kitty-chocolate-biscuits--a5rt6ypnx44e4",
+    "name": "Hello Kitty Chocolate Biscuits",
+    "priceCents": 179,
+    "category": "Sweets",
+    "barcode": "074601168773",
+    "image": "/inventory/a5rt6ypnx44e4.jpg"
+  },
+  {
+    "id": "GXYKS9WVAGZ00",
+    "slug": "lotte-macadamia-chocolate--gxyks9wvagz00",
+    "name": "Lotte Macadamia Chocolate",
+    "priceCents": 399,
+    "category": "Sweets",
+    "barcode": "4903333251216",
+    "image": null
+  },
+  {
+    "id": "AFXXKH3PEEDBM",
+    "slug": "homerun-ball-chocolate--afxxkh3peedbm",
+    "name": "Homerun Ball Chocolate",
+    "priceCents": 249,
+    "category": "Sweets",
+    "barcode": "020914806994",
+    "image": "/inventory/afxxkh3peedbm.jpg"
+  },
+  {
+    "id": "Q19CF3G2A5VDE",
+    "slug": "choco-heim-hazelnut--q19cf3g2a5vde",
+    "name": "Choco Heim Hazelnut",
+    "priceCents": 599,
+    "category": "Sweets",
+    "barcode": "8801111115223",
+    "image": "/inventory/q19cf3g2a5vde.jpg"
+  },
+  {
+    "id": "FZPPND52BW3AT",
+    "slug": "orion-choco-pie-banana--fzppnd52bw3at",
+    "name": "Orion Choco Pie Banana",
+    "priceCents": 699,
+    "category": "Sweets",
+    "barcode": "8801117982010",
+    "image": "/inventory/fzppnd52bw3at.jpg"
+  },
+  {
+    "id": "P3VB0T1T4FAC2",
+    "slug": "choco-kit--p3vb0t1t4fac2",
+    "name": "Choco Kit",
+    "priceCents": 300,
+    "category": "Sweets",
+    "barcode": "8801019201813",
+    "image": "/inventory/p3vb0t1t4fac2.jpg"
+  },
+  {
+    "id": "R8RPJHQ9JA67E",
+    "slug": "orion-ojelly-peach--r8rpjhq9ja67e",
+    "name": "Orion Ojelly Peach",
+    "priceCents": 299,
+    "category": "Sweets",
+    "barcode": "8801117991906",
+    "image": "/inventory/r8rpjhq9ja67e.jpg"
+  },
+  {
+    "id": "1Z29EMGW7V80P",
+    "slug": "orion-ojelly-grape--1z29emgw7v80p",
+    "name": "Orion Ojelly Grape",
+    "priceCents": 299,
+    "category": "Sweets",
+    "barcode": "8801117991807",
+    "image": "/inventory/1z29emgw7v80p.jpg"
+  },
+  {
+    "id": "0Z1XA238RH0GE",
+    "slug": "butter-ring-deep-choco--0z1xa238rh0ge",
+    "name": "Butter Ring-Deep Choco",
+    "priceCents": 550,
+    "category": "Sweets",
+    "barcode": "8801019316715",
+    "image": null
+  },
+  {
+    "id": "MJJ0JCJ6QBXEP",
+    "slug": "oh-yes-chocolate-cake--mjj0jcj6qbxep",
+    "name": "Oh Yes Chocolate Cake",
+    "priceCents": 700,
+    "category": "Sweets",
+    "barcode": "020914806215",
+    "image": "/inventory/mjj0jcj6qbxep.jpg"
+  },
+  {
+    "id": "XP4Z60KTZ8A3G",
+    "slug": "choco-bubu-dubai-chocolate--xp4z60ktz8a3g",
+    "name": "Choco Bubu Dubai Chocolate",
+    "priceCents": 2400,
+    "category": "Sweets",
+    "barcode": "765464991294",
+    "image": null
+  },
+  {
+    "id": "S94AH3A6RABPC",
+    "slug": "ramune-peach--s94ah3a6rabpc",
+    "name": "Ramune Peach",
+    "priceCents": 199,
+    "category": "Drinks",
+    "barcode": "673367635187",
+    "image": "/inventory/s94ah3a6rabpc.jpg"
+  },
+  {
+    "id": "NMQT52MPBMB7C",
+    "slug": "ramune-mango--nmqt52mpbmb7c",
+    "name": "Ramune Mango",
+    "priceCents": 199,
+    "category": "Drinks",
+    "barcode": "673367635149",
+    "image": "/inventory/nmqt52mpbmb7c.jpg"
+  },
+  {
+    "id": "JBSFSRS1K28GA",
+    "slug": "ramune-orange-flavor--jbsfsrs1k28ga",
+    "name": "Ramune Orange Flavor",
+    "priceCents": 199,
+    "category": "Drinks",
+    "barcode": "673367635132",
+    "image": "/inventory/jbsfsrs1k28ga.jpg"
+  },
+  {
+    "id": "JVRS1FQFS07PA",
+    "slug": "mogu-mogu-mango-320-ml--jvrs1fqfs07pa",
+    "name": "Mogu Mogu Mango 320 ml",
+    "priceCents": 149,
+    "category": "Drinks",
+    "barcode": "8850389100769",
+    "image": "/inventory/jvrs1fqfs07pa.jpg"
+  },
+  {
+    "id": "GM8JZQN4DA014",
+    "slug": "mogu-mogu-orange-6-pack--gm8jzqn4da014",
+    "name": "Mogu Mogu Orange 6 Pack",
+    "priceCents": 860,
+    "category": "Drinks",
+    "barcode": "8850389101667",
+    "image": null
+  },
+  {
+    "id": "TVMF7WQJSVS06",
+    "slug": "mogu-mogu-pineapple-6-pack--tvmf7wqjsvs06",
+    "name": "Mogu Mogu Pineapple 6 Pack",
+    "priceCents": 860,
+    "category": "Drinks",
+    "barcode": "8850389101704",
+    "image": null
+  },
+  {
+    "id": "N2PMZXQ7NWPB0",
+    "slug": "mogu-mogu-peach-6-pack--n2pmzxq7nwpb0",
+    "name": "Mogu Mogu Peach 6 Pack",
+    "priceCents": 860,
+    "category": "Drinks",
+    "barcode": "8850389106464",
+    "image": null
+  },
+  {
+    "id": "HP9YVRCGQJAN4",
+    "slug": "mogu-mogu-melon-6-pack--hp9yvrcgqjan4",
+    "name": "Mogu Mogu Melon 6 Pack",
+    "priceCents": 849,
+    "category": "Drinks",
+    "barcode": "8850389111369",
+    "image": null
+  },
+  {
+    "id": "KDATYTTX8HS9J",
+    "slug": "mogu-mogu-passion-fruit-6-pack--kdatyttx8hs9j",
+    "name": "Mogu Mogu Passion Fruit 6 Pack",
+    "priceCents": 849,
+    "category": "Drinks",
+    "barcode": "18850389112882",
+    "image": null
+  },
+  {
+    "id": "6G75Q0MG44HYM",
+    "slug": "ramunee-original--6g75q0mg44hym",
+    "name": "Ramunee Original",
+    "priceCents": 199,
+    "category": "Drinks",
+    "barcode": "673367635170",
+    "image": "/inventory/6g75q0mg44hym.jpg"
+  },
+  {
+    "id": "5NZ3KJH62AX0R",
+    "slug": "ramune-melon--5nz3kjh62ax0r",
+    "name": "Ramune Melon",
+    "priceCents": 199,
+    "category": "Drinks",
+    "barcode": "673367635156",
+    "image": "/inventory/5nz3kjh62ax0r.jpg"
+  },
+  {
+    "id": "DH20ZXJZBDMDW",
+    "slug": "mogu-mogu-mango-6-pack--dh20zxjzbdmdw",
+    "name": "Mogu Mogu Mango 6 Pack",
+    "priceCents": 749,
+    "category": "Drinks",
+    "barcode": "8850389101711",
+    "image": null
+  },
+  {
+    "id": "CDFVMW961NSVE",
+    "slug": "mogu-mogu-melon-33-80oz--cdfvmw961nsve",
+    "name": "Mogu Mogu Melon 33.80oz",
+    "priceCents": 299,
+    "category": "Drinks",
+    "barcode": "8850389111628",
+    "image": "/inventory/cdfvmw961nsve.jpg"
+  },
+  {
+    "id": "404YB5SM98DE2",
+    "slug": "mogu-mogu-grape-6-pack--404yb5sm98de2",
+    "name": "Mogu Mogu Grape 6 Pack",
+    "priceCents": 749,
+    "category": "Drinks",
+    "barcode": "8850389101674",
+    "image": null
+  },
+  {
+    "id": "DVEKC510N2GPR",
+    "slug": "mogu-mogu-raspberry-6-pack--dvekc510n2gpr",
+    "name": "Mogu Mogu Raspberry 6 Pack",
+    "priceCents": 860,
+    "category": "Drinks",
+    "barcode": "8850389116494",
+    "image": null
+  },
+  {
+    "id": "0QYZ8RFSDM0YP",
+    "slug": "apple-mogu-mogu-6-pack--0qyz8rfsdm0yp",
+    "name": "Apple Mogu Mogu 6 Pack",
+    "priceCents": 1000,
+    "category": "Drinks",
+    "barcode": "8850389105412",
+    "image": null
+  },
+  {
+    "id": "TWHBW7V45N5FW",
+    "slug": "mogu-mogu-apple--twhbw7v45n5fw",
+    "name": "Mogu Mogu Apple",
+    "priceCents": 149,
+    "category": "Drinks",
+    "barcode": "8850389105399",
+    "image": "/inventory/twhbw7v45n5fw.jpg"
+  },
+  {
+    "id": "Y7YX11GD6GV3Y",
+    "slug": "mogu-mogu-cotten-candy-6pack--y7yx11gd6gv3y",
+    "name": "Mogu Mogu Cotten Candy 6pack",
+    "priceCents": 849,
+    "category": "Drinks",
+    "barcode": "8850389118887",
+    "image": null
+  },
+  {
+    "id": "TJ1NKQ2W9MJNY",
+    "slug": "kimchi-spicy-bulgogi-kimbap--tj1nkq2w9mjny",
+    "name": "Kimchi Spicy Bulgogi Kimbap",
+    "priceCents": 425,
+    "category": "Frozen",
+    "barcode": "8809881951102",
+    "image": "/inventory/tj1nkq2w9mjny.jpg"
+  },
+  {
+    "id": "1BZTXP75XNSZY",
+    "slug": "binggrae-melona-mochi-honeydew-melon--1bztxp75xnszy",
+    "name": "Binggrae Melona Mochi Honeydew Melon",
+    "priceCents": 1025,
+    "category": "Frozen",
+    "barcode": "769828170011",
+    "image": "/inventory/1bztxp75xnszy.jpg"
+  },
+  {
+    "id": "FKZ03PZ1HA64G",
+    "slug": "binggrae-melona-purple--fkz03pz1ha64g",
+    "name": "Binggrae Melona Purple",
+    "priceCents": 850,
+    "category": "Frozen",
+    "barcode": "769828667160",
+    "image": "/inventory/fkz03pz1ha64g.jpg"
+  },
+  {
+    "id": "89KSGC24VJDYE",
+    "slug": "binggrae-melona-banana--89ksgc24vjdye",
+    "name": "Binggrae Melona Banana",
+    "priceCents": 1159,
+    "category": "Frozen",
+    "barcode": "769828170059",
+    "image": "/inventory/89ksgc24vjdye.jpg"
+  },
+  {
+    "id": "HTZHAR0ZF96C2",
+    "slug": "bibigo-pork-vegetable-dumplings--htzhar0zf96c2",
+    "name": "Bibigo Pork Vegetable Dumplings",
+    "priceCents": 1498,
+    "category": "Frozen",
+    "barcode": "807176711965",
+    "image": "/inventory/htzhar0zf96c2.jpg"
+  },
+  {
+    "id": "C55JQJXZEFC9R",
+    "slug": "bibigo-mandu-beef-vegetable--c55jqjxzefc9r",
+    "name": "Bibigo Mandu Beef &  Vegetable",
+    "priceCents": 1498,
+    "category": "Frozen",
+    "barcode": "807176711958",
+    "image": "/inventory/c55jqjxzefc9r.jpg"
+  },
+  {
+    "id": "TTSHQFT0S23TM",
+    "slug": "bibigo-mandu-veg-dumplings--ttshqft0s23tm",
+    "name": "Bibigo Mandu Veg Dumplings",
+    "priceCents": 1498,
+    "category": "Frozen",
+    "barcode": "8801007957869",
+    "image": null
+  },
+  {
+    "id": "XDDW130DC0K16",
+    "slug": "bibigo-mandu-veg-dumpling-kim-chi--xddw130dc0k16",
+    "name": "Bibigo Mandu Veg Dumpling Kim Chi",
+    "priceCents": 1648,
+    "category": "Frozen",
+    "barcode": "8801007957609",
+    "image": "/inventory/xddw130dc0k16.jpg"
+  },
+  {
+    "id": "M0MM2F0VAVQKT",
+    "slug": "bibigo-mandu-chicken-veg-dumplings--m0mm2f0vavqkt",
+    "name": "Bibigo Mandu Chicken & Veg Dumplings",
+    "priceCents": 1498,
+    "category": "Frozen",
+    "barcode": "807176712481",
+    "image": "/inventory/m0mm2f0vavqkt.jpg"
+  },
+  {
+    "id": "37W4BWX4597EA",
+    "slug": "melona-coconut--37w4bwx4597ea",
+    "name": "Melona Coconut",
+    "priceCents": 850,
+    "category": "Frozen",
+    "barcode": "769828301927",
+    "image": "/inventory/37w4bwx4597ea.jpg"
+  },
+  {
+    "id": "SVAP7MZJRSE64",
+    "slug": "honey-butter-flavored-mozzarella-corn-dogs--svap7mzjrse64",
+    "name": "Honey Butter Flavored Mozzarella Corn Dogs",
+    "priceCents": 1200,
+    "category": "Frozen",
+    "barcode": "020914818232",
+    "image": null
+  },
+  {
+    "id": "HFC360X6KWJG8",
+    "slug": "melona-pistachio-bar--hfc360x6kwjg8",
+    "name": "Melona Pistachio Bar",
+    "priceCents": 149,
+    "category": "Frozen",
+    "barcode": "769828667177",
+    "image": "/inventory/hfc360x6kwjg8.jpg"
+  },
+  {
+    "id": "3XHQS7AWEWWF6",
+    "slug": "melona--3xhqs7awewwf6",
+    "name": "Melona",
+    "priceCents": 999,
+    "category": "Frozen",
+    "barcode": "769828170134",
+    "image": "/inventory/3xhqs7awewwf6.jpg"
+  },
+  {
+    "id": "2K01KY59EP6KG",
+    "slug": "kimchi-pancake--2k01ky59ep6kg",
+    "name": "Kimchi Pancake",
+    "priceCents": 749,
+    "category": "Frozen",
+    "barcode": "020914818676",
+    "image": null
+  },
+  {
+    "id": "F22GXBGE52468",
+    "slug": "kimchi-furikake--f22gxbge52468",
+    "name": "Kimchi Furikake",
+    "priceCents": 450,
+    "category": "Pantry",
+    "barcode": "011152083353",
+    "image": null
+  },
+  {
+    "id": "33HD2HQHJ457A",
+    "slug": "buldak-original-hot-sauce--33hd2hqhj457a",
+    "name": "Buldak Original Hot Sauce",
+    "priceCents": 700,
+    "category": "Pantry",
+    "barcode": "8801073411388",
+    "image": "/inventory/33hd2hqhj457a.jpg"
+  },
+  {
+    "id": "B1ZPKGFSWJ2KA",
+    "slug": "cj-foods-gochujang-hot-pepper-paste--b1zpkgfswj2ka",
+    "name": "cj Foods Gochujang Hot Pepper Paste",
+    "priceCents": 999,
+    "category": "Pantry",
+    "barcode": "807176710760",
+    "image": "/inventory/b1zpkgfswj2ka.jpg"
+  },
+  {
+    "id": "JGK3H2NWG2C9G",
+    "slug": "naked-kimchi--jgk3h2nwg2c9g",
+    "name": "Naked Kimchi",
+    "priceCents": 749,
+    "category": "Refrigerated",
+    "barcode": "081652195627",
+    "image": null
+  },
+  {
+    "id": "9CCN4CWYRH44P",
+    "slug": "radish-with-water-kimchi--9ccn4cwyrh44p",
+    "name": "Radish With Water Kimchi",
+    "priceCents": 2199,
+    "category": "Refrigerated",
+    "barcode": "635648134666",
+    "image": null
+  },
+  {
+    "id": "M12CW62WZ4BZM",
+    "slug": "assi-sliced-kimchi-14-1-oz--m12cw62wz4bzm",
+    "name": "Assi Sliced Kimchi 14.1 Oz",
+    "priceCents": 749,
+    "category": "Refrigerated",
+    "barcode": "081652195603",
+    "image": "/inventory/m12cw62wz4bzm.jpg"
+  },
+  {
+    "id": "KA7MA6R8EFNCC",
+    "slug": "sliced-napa-kimchi--ka7ma6r8efncc",
+    "name": "Sliced Napa Kimchi",
+    "priceCents": 1099,
+    "category": "Refrigerated",
+    "barcode": "890376002049",
+    "image": "/inventory/ka7ma6r8efncc.jpg"
+  },
+  {
+    "id": "73HDSS54KY9MJ",
+    "slug": "mommy-boss-kimchi-mild--73hdss54ky9mj",
+    "name": "Mommy Boss Kimchi Mild",
+    "priceCents": 1699,
+    "category": "Refrigerated",
+    "barcode": "746210931016",
+    "image": "/inventory/73hdss54ky9mj.jpg"
+  },
+  {
+    "id": "948PWAJAT0H6C",
+    "slug": "kimchi-seasoning-powder--948pwajat0h6c",
+    "name": "Kimchi Seasoning Powder",
+    "priceCents": 675,
+    "category": "Pantry",
+    "barcode": "8809990299362",
+    "image": "/inventory/948pwajat0h6c.jpg"
+  },
+  {
+    "id": "NM70PMQ6R9KM2",
+    "slug": "hang-a-ri-sliced-napa-kimchi--nm70pmq6r9km2",
+    "name": "Hang-A-Ri Sliced Napa Kimchi",
+    "priceCents": 2399,
+    "category": "Refrigerated",
+    "barcode": "890376002117",
+    "image": null
+  },
+  {
+    "id": "RPWH3WMRYMXPA",
+    "slug": "kimchi-64oz--rpwh3wmrymxpa",
+    "name": "Kimchi 64oz",
+    "priceCents": 2199,
+    "category": "Refrigerated",
+    "barcode": "898932001024",
+    "image": null
+  },
+  {
+    "id": "MTWCBJENWAQGA",
+    "slug": "stir-fried-gochujang--mtwcbjenwaqga",
+    "name": "Stir Fried Gochujang",
+    "priceCents": 499,
+    "category": "Pantry",
+    "barcode": "8801039009109",
+    "image": null
+  }
+]

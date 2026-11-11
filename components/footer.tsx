@@ -7,7 +7,7 @@ export function Footer() {
       <div className="footer-grid">
         <div>
           <Image className="footer-logo" src="/seoul-foods-logo.png" alt="Seoul Foods" width={280} height={99} />
-          <p>Good snacks. Real ingredients.<br />A little closer to home.</p>
+          <p>Asian groceries. Good snacks.<br />A little closer to home.</p>
         </div>
         <div>
           <p className="footer-label">Come through</p>
@@ -22,7 +22,8 @@ export function Footer() {
         </div>
         <div>
           <p className="footer-label">Demo notice</p>
-          <p>Products, prices and pickup requests are for demonstration. Payment happens in store.</p>
+          <p>Real inventory, dated October 29, 2026. Confirm current price and stock with the store. This draft does not accept orders or payments.</p>
+          <Link href="/credits">Product photo credits</Link>
         </div>
       </div>
       <div className="footer-bottom"><span>© {new Date().getFullYear()} Seoul Foods</span><span>서울 푸드 • North Mankato</span></div>
