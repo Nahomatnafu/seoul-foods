@@ -502,7 +502,7 @@
     "priceCents": 2400,
     "category": "Sweets",
     "barcode": "765464991294",
-    "image": null
+    "image": "/inventory/xp4z60ktz8a3g.webp"
   },
   {
     "id": "S94AH3A6RABPC",
@@ -835,7 +835,7 @@
     "priceCents": 749,
     "category": "Refrigerated",
     "barcode": "081652195627",
-    "image": null
+    "image": "/inventory/jgk3h2nwg2c9g.webp"
   },
   {
     "id": "9CCN4CWYRH44P",
@@ -844,7 +844,8 @@
     "priceCents": 2199,
     "category": "Refrigerated",
     "barcode": "635648134666",
-    "image": null
+    "image": "/inventory/9ccn4cwyrh44p.webp",
+    "imageCaption": "Example package shown"
   },
   {
     "id": "M12CW62WZ4BZM",
@@ -898,7 +899,7 @@
     "priceCents": 2199,
     "category": "Refrigerated",
     "barcode": "898932001024",
-    "image": null
+    "image": "/inventory/rpwh3wmrymxpa.webp"
   },
   {
     "id": "MTWCBJENWAQGA",
@@ -907,6 +908,7 @@
     "priceCents": 499,
     "category": "Pantry",
     "barcode": "8801039009109",
-    "image": null
+    "image": "/inventory/mtwcbjenwaqga.webp",
+    "imageCaption": "Example package shown"
   }
 ]
