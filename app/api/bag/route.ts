@@ -1,4 +1,4 @@
-import { products } from '@/lib/products';
+import { getStorefront, snapshotDate } from '@/lib/products';
 
 export async function POST(request: Request) {
   const text = await request.text();
@@ -11,7 +11,8 @@ export async function POST(request: Request) {
     if (!row || typeof row.id !== 'string' || !Number.isSafeInteger(row.quantity) || row.quantity < 1 || row.quantity > 99) return Response.json({ error: 'Invalid item quantity.' }, { status: 400 });
     quantities.set(row.id, Math.min(99, (quantities.get(row.id) || 0) + row.quantity));
   }
-  // Resolve names and cents from the server snapshot. Client-supplied prices are ignored.
+  const { catalog, products } = await getStorefront();
+  // Resolve names and cents on the server. Client-supplied prices are ignored.
   const items = products.filter(p => quantities.has(p.id)).map(p => ({ ...p, quantity: quantities.get(p.id)! }));
-  return Response.json({ items, subtotalCents: items.reduce((sum, p) => sum + p.priceCents * p.quantity, 0), snapshotDate: '2026-10-29', demoOnly: true }, { headers: { 'Cache-Control': 'no-store' } });
+  return Response.json({ items, subtotalCents: items.reduce((sum, p) => sum + p.priceCents * p.quantity, 0), snapshotDate: catalog.updatedAt?.slice(0, 10) ?? snapshotDate, demoOnly: true }, { headers: { 'Cache-Control': 'no-store' } });
 }

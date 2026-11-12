@@ -1,7 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ProductCard } from "@/components/product-card";
-import { featuredProducts } from "@/lib/products";
+import { categoryHref } from "@/lib/catalog-types";
+import { getStorefront, snapshotLabel } from "@/lib/products";
+
+export const dynamic = 'force-dynamic';
 
 const categoryTiles = [
   { label: "Noodles", text: "Packets, cups & pantry staples", image: "", alt: "", className: "tile-red grocery-tile", category: "Noodles" },
@@ -10,7 +13,12 @@ const categoryTiles = [
   { label: "Freezer finds", text: "Frozen groceries for home", image: "", alt: "", className: "tile-pink grocery-tile", category: "Frozen" },
 ];
 
-export default function Home() {
+export default async function Home() {
+  const { catalog, products, featuredProducts } = await getStorefront();
+  const visibleTiles = categoryTiles.flatMap(tile => {
+    const category = catalog.categories.find(item => item.id === tile.category.toLowerCase());
+    return category ? [{ ...tile, id: category.id, label: category.name === tile.category ? tile.label : category.name }] : [];
+  });
   return (
     <main>
       <section className="hero">
@@ -26,16 +34,16 @@ export default function Home() {
 
       <section className="marquee" aria-label="Store highlights"><div>RAMEN RUNS ✦ FROZEN FINDS ✦ SWEET TREATS ✦ PANTRY STAPLES ✦ COLD DRINKS ✦ RAMEN RUNS ✦ FROZEN FINDS ✦</div></section>
 
-      <section className="section category-section">
+      {visibleTiles.length > 0 && <section className="section category-section">
         <div className="section-heading split-heading"><div><p className="eyebrow">START WITH A CRAVING</p><h2>What are you<br />in the mood for?</h2></div><p>Familiar favorites, hard-to-find ingredients, and something new every time you stop in.</p></div>
         <div className="category-grid">
-          {categoryTiles.map((tile) => <Link href={`/shop?category=${tile.category}`} className={`category-tile ${tile.className}`} key={tile.label}>{tile.image ? <Image className="category-photo" src={tile.image} alt={tile.alt} fill sizes="(max-width: 980px) 50vw, 25vw" /> : <span className="aisle-type" aria-hidden="true">{tile.category === 'Noodles' ? 'RAMEN\nUDON\nMORE' : 'STOCK\nYOUR\nFREEZER'}</span>}<span className="category-content"><small>{tile.text}</small><strong>{tile.label}</strong></span><b aria-hidden="true">↗</b></Link>)}
+          {visibleTiles.map((tile) => <Link href={categoryHref(tile.id)} className={`category-tile ${tile.className}`} key={tile.id}>{tile.image ? <Image className="category-photo" src={tile.image} alt={tile.alt} fill sizes="(max-width: 980px) 50vw, 25vw" /> : <span className="aisle-type" aria-hidden="true">{tile.category === 'Noodles' ? 'RAMEN\nUDON\nMORE' : 'STOCK\nYOUR\nFREEZER'}</span>}<span className="category-content"><small>{tile.text}</small><strong>{tile.label}</strong></span><b aria-hidden="true">↗</b></Link>)}
         </div>
-      </section>
+      </section>}
 
       <section className="section featured-section">
-        <div className="section-heading row-heading"><div><p className="eyebrow">FROM THE STORE&apos;S INVENTORY</p><h2>A few grocery finds</h2></div><Link className="text-link" href="/shop">Browse all 100 →</Link></div>
-        <p className="snapshot-note">Real products and exported prices. October 29, 2026 snapshot · Confirm current stock in store.</p>
+        <div className="section-heading row-heading"><div><p className="eyebrow">FROM THE STORE&apos;S INVENTORY</p><h2>A few grocery finds</h2></div><Link className="text-link" href="/shop">Browse all {products.length} →</Link></div>
+        <p className="snapshot-note">{!catalog.updatedAt && `${snapshotLabel} inventory snapshot · `}Confirm current stock in store.</p>
         <div className="product-grid home-products">{featuredProducts.map((product, index) => <ProductCard product={product} index={index} key={product.slug} />)}</div>
       </section>
 

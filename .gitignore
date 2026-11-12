@@ -15,6 +15,7 @@
 
 # next.js
 /.next/
+/.catalog-local/
 /.vinext/
 /out/
 
